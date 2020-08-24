@@ -9,7 +9,7 @@ Configuration config.json was created using AutoFlow version __0.2.5__
 # Need help?
 Is you have questions about this example, feel free to post your question on the community "Ask Questions" website.
 
-[Ask Questions](https://interactor.com/autoflow/questions){: .btn}
+[Ask Questions](https://interactor.com/autoflow/questions)
 
 # Trello integration + Data extraction
 
@@ -78,9 +78,3 @@ https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/
 
 Get Trello Key (you must be signed in)
 https://trello.com/app-key
-
-<style>
-  .btn{
-    background-color: black;
-  }
-</style>
