@@ -7,9 +7,7 @@
 Configuration config.json was created using AutoFlow version __0.2.5__
 
 # Need help?
-Is you have questions about this example, feel free to post your question on the community "[Ask Questions](https://interactor.com/autoflow/questions)" website.
-
-<a href="https://interactor.com/autoflow/questions" target="_blank">[Link button](http://example.com/){: .btn }</a>
+Is you have questions about this example, feel free to post your question on the community "<a href="https://interactor.com/autoflow/questions" target="_blank">Ask Questions</a>" website.
 
 # Trello integration + Data extraction
 
