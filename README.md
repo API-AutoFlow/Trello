@@ -1,5 +1,3 @@
-
-
 # Summary
 * Integrate with Trello API
 * Extract data from Trello
@@ -7,6 +5,11 @@
 
 # API AutoFlow Version:
 Configuration config.json was created using AutoFlow version __0.2.5__
+
+# Need help?
+Is you have questions about this example, feel free to post your question on the community "Ask Questions" website.
+
+[Ask Questions](https://interactor.com/autoflow/questions){: .btn}
 
 # Trello integration + Data extraction
 
@@ -20,52 +23,52 @@ Configuration config.json was created using AutoFlow version __0.2.5__
 7. Action __iteration/for-each__ to iterate over the Trello data which is in array
 8. Action __array/insert-at__ to insert the extracted data into the array
 9. Action __data/set__ to set the result in the response body
-![Image](https://github.com/API-AutoFlow/trello/blob/master/img/1.png)
+![Image]https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/1.png)
 
 
 ## Simulated Mock data
 When build API solution, it is easier to mock the data, which makes it easier to build and test the solution.
 
-![Image](https://github.com/API-AutoFlow/trello/blob/master/img/2.png)
+![Image](https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/2.png)
 
 
 ## Step 1. Prepare URL Query
 ### String/join
 Here you will notice that we are joining an array with ID coming from the user.
-![Image](https://github.com/API-AutoFlow/trello/blob/master/img/3.png)
+![Image](https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/3.png)
 
 ## Step 2. Make HTTP API Call to Trello
 Set the URL to the path that was created from previous string/join action.
 The query comes from the user which consists of ID and Key.  In our solution, you can simulate that.
 The returned data is stored in a new variable called "result"
 
-![Image](https://github.com/API-AutoFlow/trello/blob/master/img/4.png)
+![Image](https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/4.png)
 
 ## Step 3. Decode JSON data
 Trello returns the data in JSON format.  We can use the json/decode action to put the data in a more accessible format.
 
-![Image](https://github.com/API-AutoFlow/trello/blob/master/img/5.png)
+![Image](https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/5.png)
 
 ## Step 4. Create (declare) empty array
 Array is commonly used to structure extracted data. Before we iterate over the Trello data, we use data set to delcare/create an empty array.
 
-![Image](https://github.com/API-AutoFlow/trello/blob/master/img/6.png)
+![Image](https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/6.png)
 
 ## Step 5. Iterate over Trello data
 Notice that decoded Trello data was saved in a variable called "result_decoded".
 Each element's index and value are stored in index and value variables respectively.
 
-![Image](https://github.com/API-AutoFlow/trello/blob/master/img/7.png)
+![Image](https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/7.png)
 
 ## Step 6. Insert only the relevant data
 As the Trello data is iterated, array/insert-at action inserts the selected data into the "sorted" array that was created earlier
 
-![Image](https://github.com/API-AutoFlow/trello/blob/master/img/8.png)
+![Image](https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/8.png)
 
 ## Step 7. Set data to response body
 To make the data available, data/set action is used to set data in the response body.
 
-![Image](https://github.com/API-AutoFlow/trello/blob/master/img/9.png)
+![Image](https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/9.png)
 
 
 ## Configuring Trello API
