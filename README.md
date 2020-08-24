@@ -46,7 +46,7 @@ Trello returns the data in JSON format.  We can use the json/decode action to pu
 
 ![Image](https://github.com/API-AutoFlow/trello/blob/master/img/5.png)
 
-## Step 4. Create (declaire) empty array
+## Step 4. Create (declare) empty array
 Array is commonly used to structure extracted data. Before we iterate over the Trello data, we use data set to delcare/create an empty array.
 
 ![Image](https://github.com/API-AutoFlow/trello/blob/master/img/6.png)
