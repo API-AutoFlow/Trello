@@ -21,7 +21,8 @@ Is you have questions about this example, feel free to post your question on the
 7. Action __iteration/for-each__ to iterate over the Trello data which is in array
 8. Action __array/insert-at__ to insert the extracted data into the array
 9. Action __data/set__ to set the result in the response body
-![Image]https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/1.png)
+
+![Image](https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/1.png)
 
 
 ## Simulated Mock data
