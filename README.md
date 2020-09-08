@@ -38,7 +38,7 @@ Here you will notice that we are joining an array with ID coming from the user.
 
 ## Step 2. Make HTTP API Call to Trello
 Set the URL to the path that was created from previous string/join action.
-The query comes from the user which consists of ID and Key.  In our solution, you can simulate that.
+The query comes from the user which consists of ID, Key, and Token.  In our solution, you can simulate that.
 The returned data is stored in a new variable called "result"
 
 ![Image](https://github.com/API-AutoFlow/trello-with-data-extraction/blob/master/img/4.png)
